@@ -9,4 +9,13 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+  	<servlet-name>IMCServlet</servlet-name>
+  	
+  	<servlet-class>web.IMCServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>IMCServlet</servlet-name>
+  	<url-pattern>/IMCServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
